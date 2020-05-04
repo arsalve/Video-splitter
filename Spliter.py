@@ -6,7 +6,7 @@ etime=0
 count=0
 looper=True
 while looper:
-    orignal=VideoFileClip("Allu Arjun Aarya Video Songs - Edo Priyaragam Song.mp4")
+    orignal=VideoFileClip("<video path>")
     if etime <  orignal.duration-limit:
         etime=sTime+limit
     else :
